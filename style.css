@@ -16,21 +16,23 @@ body{
     height: fit-content;
     margin: 0 auto;
     padding: 0%;
+    justify-content: center;
 }
 
 .header-nav-container{
     height: 98vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 #main-name{
     color: #00353b;
-    font-size: 130px;
+    font-size: 10em;
 
 }
 
 .nav-container{
-    margin-right: 50px;
+    /* margin-right: 50px; */
     justify-content: center;
     width: 100%;
 }
@@ -49,4 +51,33 @@ body{
     padding: 0px;
     font-size: 30px;
     
+}
+
+.modal-headers{
+    font-size: 3em;
+    color: #00353b;
+}
+
+.about-me-text{
+    font-size: 0.5em;
+}
+
+
+/* MODALS */
+.modal {
+    margin: auto;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 50%;
+    max-width: 630px;
+    min-width: 320px;
+    height: auto;
+    visibility: hidden;
+
+}
+
+.modal-show {
+    visibility: visible;
 }
