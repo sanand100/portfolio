@@ -12,7 +12,7 @@ const contactMeSection = document.querySelector('.contact-me-container');
 const contactMeCloseBtn = document.querySelector('.close-md-contactme');
 
 const projectsBtn = document.querySelector('#my-projects');
-const projectSection = document.querySelector('.my-projects-container');
+const projectSection = document.querySelector('.projects-container ');
 const projectsCloseBtn = document.querySelector('.close-md-projects');
 
 //add event listener
