@@ -4,15 +4,27 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/reset.css" />
 		<link rel="stylesheet" href="/style.css" />
 		<script defer src="/script.js"></script>
 		<title>Shraddha Anand</title>
 	</head>
 	<body>
 		<div class="container header-nav-container">
+			<!-- <div class="profile-pic-container container">
+				<img
+					class="profile-pic"
+					src="/assets/3E498C3F-4833-44DE-B7B6-6F698BFB311F_1_105_c.jpeg"
+					alt=""
+				/>
+			</div> -->
 			<div class="header-container container">
 				<h1 id="main-name">Shraddha Anand</h1>
 			</div>
+			<!-- <div class="brand-statement">
+				a full stack software engineer with a strong background in mathematics
+				and economics
+			</div> -->
 
 			<div class="nav-container container">
 				<nav class="nav">
@@ -33,9 +45,9 @@
 			<div class="about-me modal-headers">
 				<h2>A bit about me!</h2>
 				<div class="close-btn">
-					<button class="close-md-abtme">X</button>
+					<button class="close-md-abtme close-btn">&#x2718;</button>
 				</div>
-				<p class="about-me-text">
+				<p class="about-me-text text">
 					Hello! My name is Shraddha.
 					<br />
 					<br />
@@ -45,6 +57,7 @@
 					Then, I went to Wellesley College. I majored in math and economics and
 					graduated in May 2021.
 					<br />
+					<!-- remove these brs and make them separate p's -->
 					<br />
 					All through Wellesley, I was very interested in pursuing a career in
 					academia in Economics since it would allow me to study our world
@@ -92,6 +105,47 @@
 					answers using data and computer science.
 				</p>
 			</div>
+		</div>
+
+		<div class="contact-me-container container modal">
+			<div class="contact-me modal-headers">
+				<h2>Say hi!</h2>
+				<div class="close-btn">
+					<button class="close-md-contactme close-btn">&#x2718;</button>
+				</div>
+				<div class="contact-me-page-content text">
+					<p class="contact-me-text-line1">I would love to hear from you!</p>
+					<p class="contact-me-text-line2">
+						You can email me at
+						<a href="mailto: shraddhaanand2@gmail.com">
+							shraddhaanand2@gmail.com</a
+						>, connect with me on
+						<a href="https://www.linkedin.com/in/shraddha-anand-680982237/"
+							>LinkedIn</a
+						>, or leave me a message below!
+					</p>
+					<label for="your-name">Your Name</label>
+					<input type="text" name="your-name" id="your-name" />
+
+					<br />
+					<label for="Email">Your Email</label>
+					<input type="email" name="your-email" id="your-email" />
+
+					<br />
+					<label for="message">Your Message</label>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</div>
+			</div>
+		</div>
+
+		<div class="my-projects-container container modal">
+			<div class="my-projects modal-headers">
+				<h2>My Projects</h2>
+				<div class="close-btn">
+					<button class="close-md-projects close-btn">&#x2718;</button>
+				</div>
+			</div>
+			<div class="projects-content text">hello is this working</div>
 		</div>
 	</body>
 </html>

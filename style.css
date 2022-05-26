@@ -1,6 +1,15 @@
+* {
+    border-sizing: border-box;
+}
+
+html{
+    overflow: scroll;
+}
+
 body{
-    background-color: #f9ffed;
-    /* height: 100vh; */
+    background-color: #fff8eb;
+    /* height: 100vh;
+    width: 100%; */
 }
 
 .container{
@@ -31,6 +40,11 @@ body{
 
 }
 
+/* .brand-statement{
+    margin-bottom: 5em;
+    font-size: 2.2em;
+} */
+
 .nav-container{
     /* margin-right: 50px; */
     justify-content: center;
@@ -41,7 +55,7 @@ body{
     display: flex;
     width: 60vh;
     justify-content: space-around;
-    margin-top: -50px;
+    /* margin-top: -50px; */
 }
 
 
@@ -54,30 +68,155 @@ body{
 }
 
 .modal-headers{
-    font-size: 3em;
-    color: #00353b;
+    font-size: 4em;
+    text-align: center;
+    color: #001b2e;
+    padding: 100px 100px;
+    margin: auto;
+    /* background-color: #f9ffed; */
+    width: 100%;
+    height: 100%;
+    padding: 100px 100px;
+
 }
 
-.about-me-text{
+/* .about-me-container{
+    height: 100%;
+    width: 100%;
+} */
+
+
+
+/* .about-me{
+   background-color: #f9ffed;
+    width: 100%;
+    height: 100%;
+    padding: 100px 100px; 
+
+}
+
+.contact-me {
+    background-color: #f9ffed;
+    width: 100%;
+    height: 100%;
+    padding: 100px 100px;
+
+} */
+
+.text{
+    color: #265f5d;
+}
+.about-me-text {
     font-size: 0.5em;
+    text-align:justify;
+    padding: 200px 200px;
+
 }
 
+
+.contact-me-text-line1{
+    font-size: 0.5em;
+    text-align:center;
+    padding: 30px 30px
+}
+
+.contact-me-text-line2{
+    font-size: 0.5em;
+    /* text-align: center; */
+    text-align:center;
+}
+
+.contact-me a{
+    text-decoration: none;
+    color: black;
+}
 
 /* MODALS */
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+.profile-pic {
+    width: 25em;
+    height: auto;
+    border-radius: 50%;
+    /* margin: 4em; */
+}
+
 .modal {
-    margin: auto;
+    /* margin: auto; */
     position: fixed;
-    top: 100px;
+    top: 0;
     left: 0;
     right: 0;
-    width: 50%;
-    max-width: 630px;
-    min-width: 320px;
-    height: auto;
-    visibility: hidden;
-
+    width: 100%;
+    height: 100%;
+    /* max-width: 630px;
+    min-width: 320px; */
+    /* height: auto; */
+    /* visibility: hidden; */
+    display: none;
+    /* height: 0px; */
+    /* opacity: 0;
+    transition: opacity 2s */
+    overflow-y:scroll;
+    overflow-x: hidden;
 }
 
 .modal-show {
-    visibility: visible;
+    /* height: auto; */
+    z-index:1000;
+    /* visibility: visible; */
+    display: block;
+    /* opacity: 1; */
+    animation: fadeIn 0.5s
+}
+
+
+.close-btn{
+    font-size: 0.8em;
+    background-color: transparent;
+    border: 0px;
+    position:absolute;
+    right: 5em;
+
+}
+
+label{
+    font-size: 0.5em;
+    margin-top: 2em;
+    display: block;
+    /* margin-bottom: 0.5rem; */
+}
+
+input{
+    /* height: 3em;
+    width: 15em;
+    margin-top: 0;
+    margin-bottom: 0.5rem; */
+    height: 38px;
+    width: 15em;
+    /* padding: 6px 10px; */
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    /* box-shadow: none; */
+    box-sizing: border-box;
+}
+
+textarea{
+    height: 15em;
+    width: 40em;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+
 }
