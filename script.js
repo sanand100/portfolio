@@ -15,6 +15,10 @@ const projectsBtn = document.querySelector('#my-projects');
 const projectSection = document.querySelector('.projects-container ');
 const projectsCloseBtn = document.querySelector('.close-md-projects');
 
+const workexBtn = document.querySelector('#work-exp');
+const workexSection = document.querySelector('.workex-container ');
+const workexCloseBtn = document.querySelector('.close-md-workex');
+
 //add event listener
 //creating event listeners for each of the navs
 aboutMeBtn.addEventListener('click', function () {
@@ -41,5 +45,14 @@ projectsBtn.addEventListener('click', function () {
 });
 projectsCloseBtn.addEventListener('click', function () {
 	projectSection.classList.remove('modal-show');
+	homePage.classList.remove('modal');
+});
+
+workexBtn.addEventListener('click', function () {
+	workexSection.classList.add('modal-show');
+	homePage.classList.add('modal');
+});
+workexCloseBtn.addEventListener('click', function () {
+	workexSection.classList.remove('modal-show');
 	homePage.classList.remove('modal');
 });
