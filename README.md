@@ -1,6 +1,7 @@
 Screenshot of the app:
 
 ![](/assets/app-imgs/home-page.png)
+![](/assets/app-imgs/)
 ![](/assets/app-imgs/projects.png)
 ![](/assets/app-imgs/work-exp.png)
 ![](/assets/app-imgs/contact-me.png)

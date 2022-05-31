@@ -106,10 +106,13 @@ body{
 
 .abt-me-wrapper{
     display: flex;
+    margin: auto;
     
 }
+
 .about-me-content {
     height: fit-content;
+    max-width: 60em;
     width: 90%;
     margin: auto;
     padding: 25px 25px;
@@ -131,6 +134,7 @@ body{
 
 .school-logo-img{
     height: 2em;
+
     /* width: 3em; */
 }
 
@@ -150,7 +154,7 @@ body{
 
 .contact-me a{
     text-decoration: none;
-    color: black;
+    color: rgb(7, 70, 115);
 }
 
 /* MODALS */
@@ -210,7 +214,7 @@ input{
 textarea{
     height: 15em;
     width: 40em;
-    margin-top: 1em;
+    margin-top: 0.3em;
     padding-top: 6px;
     padding-bottom: 6px;
     background-color: #fff;
@@ -250,6 +254,11 @@ textarea{
 
 #space-battle-img{
     width: 28em;
+}
+
+.projects a {
+    text-decoration: none;
+    color: rgb(7, 70, 115);
 }
 
 .workex-containers{
@@ -328,7 +337,7 @@ textarea{
 }
 .nav-list {
     display: flex;
-    width: 50vh;
+    width: 40vh;
     flex-grow: 1;
     justify-content: space-between;
     /* margin-top: -50px; */
