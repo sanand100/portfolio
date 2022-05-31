@@ -56,3 +56,21 @@ workexCloseBtn.addEventListener('click', function () {
 	workexSection.classList.remove('modal-show');
 	homePage.classList.remove('modal');
 });
+
+// storing the input from contact me page
+let inputList = [];
+
+submitBtn = document.querySelector('.submit');
+
+submitBtn.addEventListener('click', function () {
+	inputList.push({
+		userName: document.querySelector('#your-name').value,
+		userEmail: document.querySelector('#your-email').value,
+		userMessage: document.querySelector('#message').value,
+	});
+	document.querySelector('#your-name').value = '';
+	document.querySelector('#your-email').value = '';
+	document.querySelector('#message').value = '';
+
+	alert("Your message has been sent! Can't wait to connect!");
+});
