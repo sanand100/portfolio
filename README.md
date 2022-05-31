@@ -1,19 +1,19 @@
-<!-- screenshot of the app -->
+Screenshot of the app:
 
 ![](/assets/app-imgs/home-page.png)
 ![](/assets/app-imgs/projects.png)
 ![](/assets/app-imgs/work-exp.png)
 ![](/assets/app-imgs/contact-me.png)
 
-<!-- Technologies used -->
+Technologies used:
 
 HTML, CSS, and Javascript
 
-<!-- Installation instructions -->
+Installation instructions:
 
-click on the link in gitHub to view the website!
+Click on the link in gitHub to view the website!
 
-<!-- User Stories -->
+User Stories:
 
 As a visitor of the website...:
 
@@ -24,7 +24,7 @@ I want the text size and font style to be easy to read so it is not strenuous to
 I want a short summary of the projects with a link to the gitHub repo if I want to learn more in-depth so that I can quickly review the website owner's past experiences
 I want a link to the resume which is downloadable so that I can easily save that information for recruiting purposes
 
-<!-- Wireframes -->
+Wireframes:
 
 ![](/assets/wireframes/home-page-wf.png)
 ![](/assets/wireframes/abt-me-wf.png)
