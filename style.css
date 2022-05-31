@@ -135,6 +135,10 @@ body{
 
 }
 
+.about-me-content p{
+    margin: 1em;
+}
+
 .contact-me-page-content{
     text-align: center;
 }
@@ -245,6 +249,38 @@ textarea{
     height: 100vh;
     
 }
+
+.h2-wrk-exp{
+    padding: 50px 100px;
+}
+
+
+.social-media-icons-container{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 90px;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa-linkedin-square{
+    background: #0e76a8;
+    color: white;
+}
+
+.fa-github{
+    background: black;
+    color: white;
+}
+
 
 .modal {
     /* margin: auto; */
