@@ -104,6 +104,10 @@ body{
     width: 100%;
 }
 
+.abt-me-wrapper{
+    display: flex;
+    
+}
 .about-me-content {
     height: fit-content;
     width: 90%;
@@ -114,6 +118,20 @@ body{
 
 .about-me-content p{
     margin: 1em;
+}
+
+.school-logos {
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.school-logo-img{
+    height: 2em;
+    /* width: 3em; */
 }
 
 .contact-me-page-content{
@@ -210,6 +228,7 @@ textarea{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 2em;
     /* height: fit-content; */
     /* width: 40%; */
 }
@@ -328,6 +347,23 @@ textarea{
 
 h2{
     font-size: 0.6em;
+}
+
+.abt-me-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+
+}
+
+.school-logo {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.school-logo-img {
+    height: 1em;
+    /* width: 3em; */
 }
 
 }
