@@ -9,11 +9,11 @@ html{
 }
 
 body{
-    /* background-color: #fffcf9; */
+    background-color: rgb(209,227,222);
      /* height: 100vh; */
     /* width: 100vw;  */
-    background-image: url(/assets/background-img-2.png);
-    background-size: cover;
+    /* background-image: url(/assets/background-img-2.png);
+    background-size: cover; */
 }
 
 .container{
