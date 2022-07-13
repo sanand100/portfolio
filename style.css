@@ -9,9 +9,11 @@ html{
 }
 
 body{
-    background-color: #fffcf9;
+    background-color: rgb(209,227,222);
      /* height: 100vh; */
     /* width: 100vw;  */
+    /* background-image: url(/assets/background-img-2.png);
+    background-size: cover; */
 }
 
 .container{
@@ -40,7 +42,7 @@ body{
     justify-content: center;
 }
 #main-name{
-    color: #002c48;
+    color: #056963;
     font-size: 10em;
     font-family: 'Megrim',
     cursive;
@@ -69,14 +71,20 @@ body{
     display: inline;
     padding: 0px;
     font-size: 30px;
-    color: #053a5b;  
+    color: #034540;  
     
+}
+
+.nav-list-li:hover{
+    color: rgb(173, 48, 108);
+    cursor: pointer;
 }
 
 .modal-headers{
     font-size: 7em;
     text-align: center;
-    color: #002c48;
+    /* color: #002c48; */
+    color: #034540;
     padding: 100px 100px;
     margin: auto;
     /* background-color: #f9ffed; */
@@ -87,7 +95,8 @@ body{
 
 
 .text{
-    color: #000e45;
+    /* color: #000e45; */
+    color: #025257;
     font-size: 0.2em;
     text-align: justify;
     /* padding: 100px 100px; */
@@ -102,14 +111,17 @@ body{
 .abt-me-wrapper{
     display: flex;
     margin: auto;
+    justify-content:center;
     
 }
 
 .about-me-content {
     height: fit-content;
     max-width: 60em;
-    width: 90%;
-    margin: auto;
+    width: 60%;
+    /* margin: auto; */
+    margin-right: 0;
+    margin-left: 0;
     padding: 25px 25px;
 
 }
@@ -149,7 +161,6 @@ body{
 
 .contact-me a{
     text-decoration: none;
-    color: rgb(7, 70, 115);
 }
 
 /* MODALS */
@@ -163,15 +174,17 @@ body{
     }
 }
 
-
-.profile-pic {
-    width: 25em;
-    height: auto;
-    border-radius: 50%;
-    /* margin: 4em; */
+.profile-pic-container{
+    margin-bottom: 2em;
 }
 
-
+.profile-pic {
+    width: 30em;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid rgb(104, 151, 150);
+    /* margin: 4em; */
+}
 
 
 .close-btn{
@@ -226,8 +239,11 @@ textarea{
 .project-containers{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     margin-top: 2em;
+    margin: auto;
     /* height: fit-content; */
     /* width: 40%; */
 }
@@ -238,10 +254,25 @@ textarea{
     height: fit-content;
     padding: 25px;
     margin: 5px;
+
 }
 
+
+.projects h3{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin-bottom: 0.8em;
+}
 .projects p{
     margin: 2em;
+    
+}
+
+.img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #tamagotchi-img, #dots-game-img, #portfolio-img {
     height: 20em;
@@ -253,7 +284,14 @@ textarea{
 
 .projects a {
     text-decoration: none;
-    color: rgb(7, 70, 115);
+}
+
+a {
+    /* color: #742500; */
+    color: #056963;
+}
+a:hover{
+    color: rgb(173, 48, 108)
 }
 
 .workex-containers{
